@@ -13,8 +13,16 @@
    - **\*Note**: If any of these are missing run the command in parenthesis\*
    - iTerm (`brew cask install iterm`)
    - Google Chrome (`brew cask install google-chrome`)
+   - Microsoft Teams (`brew cask install microsoft-teams`)
+   - Discord (`brew cask install discord`)
    - Slack (`brew cask install slack`)
+   - Android Studio (`brew cask install android-studio`)
+   - Android Platform Tools (`brew cask install android-platform-tools`)
+   - Github (`brew cask install github`)
+   - AWS CLI (`brew cask install awscli`)
+
    - [Optional] VS Code (`brew cask install visual-studio-code`)
+   - [Optional] Atom (`brew cask install atom`)
 6. Finally, you may need to restart your machine to ensure all updates take effect
 
 ### What's included
