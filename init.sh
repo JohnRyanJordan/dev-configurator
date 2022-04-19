@@ -55,7 +55,6 @@ echo "Installing NVM..."
 brew install nvm
 mkdir ~/.nvm 
 echo -n 'export NVM_DIR=~/.nvm source $(brew --prefix nvm)/nvm.sh' >> ~/.zshrc
-source ~/.zshrc
 
 nvm install 14
 nvm use 14
@@ -121,28 +120,34 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # Install Desktop Applications
 echo "Installing iTerm2..."
-brew cask install iterm2
+brew install --cask iterm2
 
 echo "Installing Google Chrome..."
-brew cask install google-chrome
+brew install --cask google-chrome
 
 echo "Installing Microsoft Teams..."
-brew cask install microsoft-teams
+brew install --cask microsoft-teams
 
 echo "Installing Discord..."
-brew cask install discord
+brew install --cask discord
 
 echo "Installing Slack..."
-brew cask install slack
+brew install --cask slack
+
+echo "Installing Figma..."
+brew install --cask figma
 
 echo "Installing Android Studio..."
-brew cask install android-studio
+brew install --cask android-studio
 
 echo "Installing Android Studio adb tools..."
-brew cask install android-platform-tools
+brew install --cask android-platform-tools
 
 echo "Installing Github..."
-brew cask install github
+brew install --cask github
+
+echo "Installing Docker..."
+brew install --cask docker
 
 echo "Installing AWS CLI..."
 brew install awscli
@@ -151,14 +156,14 @@ read -p "Would you like to download VSCode? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
   echo "Installing VSCode..."
-  brew cask install visual-studio-code
+  brew install --cask visual-studio-code
 fi;
 
 read -p "Would you like to download Atom? (y/n) " -n 1;
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
   echo "Installing Atom..."
-  brew cask install atom
+  brew install --cask atom
 fi;
 
 # Install Oh My Zsh

@@ -11,15 +11,17 @@
 4. Let the process run. Near the end there are a few y/n (yes or no) prompts. Press key y/n to accept or not
 5. After the script is finished you should be able to use the Mac search (top right) and see the following installed:
    - **\*Note**: If any of these are missing run the command in parenthesis\*
-   - iTerm (`brew cask install iterm`)
-   - Google Chrome (`brew cask install google-chrome`)
-   - Microsoft Teams (`brew cask install microsoft-teams`)
-   - Discord (`brew cask install discord`)
-   - Slack (`brew cask install slack`)
-   - Android Studio (`brew cask install android-studio`)
-   - Android Platform Tools (`brew cask install android-platform-tools`)
-   - Github (`brew cask install github`)
-   - AWS CLI (`brew cask install awscli`)
+   - iTerm (`brew install --cask iterm`)
+   - Google Chrome (`brew install --cask google-chrome`)
+   - Microsoft Teams (`brew install --cask microsoft-teams`)
+   - Discord (`brew install --cask discord`)
+   - Slack (`brew install --cask slack`)
+   - Figma (`brew install --cask figma`)
+   - Android Studio (`brew install --cask android-studio`)
+   - Android Platform Tools (`brew install --cask android-platform-tools`)
+   - Github (`brew install --cask github`)
+   - Docker (`brew install --cask docker`)
+   - AWS CLI (`brew install --cask awscli`)
 
    - [Optional] VS Code (`brew cask install visual-studio-code`)
    - [Optional] Atom (`brew cask install atom`)
@@ -58,9 +60,12 @@
   - Microsoft Teams
   - Discord
   - Slack
+  - Figma
   - Android Studio
   - Android Platform tools (adb)
   - Github
+  - Docker
+  - AWS cli
   - [Optional] VS Code
   - [Optional] Atom.io
 - Oh My Zsh (Z Shell)
